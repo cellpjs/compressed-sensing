@@ -27,8 +27,8 @@ main_test.m is the main matlab script for testing the algorithm. It does the fol
 4. Run the reconstruction algorithm by calling suprem_decoder() defined in suprem_decoder.m which is a wrapper function for the actual decoder written in C (suprem.c)  
 5. Compare the performance of the algorithm against the genie-aided one  
 
-Note: Before running suprem_decoder, while MATLAB is in the subfolder called decoder, enter the command:  
-'mex suprem.c'
+Note: Before running suprem_decoder, while MATLAB is in the subfolder called decoder, enter the following command:  
+`mex suprem.c`
 
 REFERENCE
 ---------
